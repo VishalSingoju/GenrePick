@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GenrePick.com</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <h1>GenrePick</h1>
+            <p>A Movie Recommendation System</p>
+            <p>A New way of watching movies!</p>
+            
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registration.html">Register</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+        <section>
+            
+            <ul>
+                <li>Click this button to search movies based on Genre > </li>
+                <li><button onclick="redirectToAnotherPage()"
+                    style="background-color: #4CAF50; /* Green */
+                            border: none;
+                            color: white;
+                            padding: 15px 32px;
+                            text-align: center;
+                            text-decoration: none;
+                            display: inline-block;
+                            font-size: 16px;
+                            margin: 10px;
+                            cursor: pointer;
+                            border-radius: 5px;">Click Me!  </button>
+
+                <script>
+                    function redirectToAnotherPage() {
+                        // Redirect to another page
+                        window.location.href = 'system.html';
+                    }
+                </script></li>
+            </ul>
+        </section>
+        <!-- About Us Section -->
+        <section id="about">
+            <div class="container">
+                <h2>About GenrePick</h2>
+                <p>At GenrePick, we believe that everyone has a unique taste in movies, and we are here to help you find films that resonate with your preferences. Whether you're in the mood for a mind-bending Sci-Fi adventure, a heartwarming romance, or a thrilling action-packed blockbuster, we have got you covered.</p><br>
+                <p>Our platform is designed to provide you with a seamless and enjoyable experience. Simply type in the genre you are interested in, and we will present you with a curated list of movies that fit your criteria. Our database is constantly updated to include the latest and greatest films, ensuring that you never run out of options.</p><br>
+                <p>We are passionate about movies and dedicated to helping you find the perfect film for any occasion. Our team of movie enthusiasts works tirelessly to bring you a diverse selection of genres and themes, so you can always find something new and exciting to watch.</p><br>
+                <p>Thank you for choosing GenrePick.com. We hope you enjoy your movie discovery journey with us!</p>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section>
+            <div class="container">
+                <h2>Services</h2>
+                <p>We provide personalized movie recommendations based on your preferred genres. Simply enter a genre, and we'll present you with a curated list of movies that match your taste.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 GenrePick. All rights reserved.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
