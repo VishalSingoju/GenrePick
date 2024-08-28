@@ -5,7 +5,7 @@ public class TestJDBCConnection {
         // Database connection details
         String jdbcURL = "jdbc:mysql://localhost:3306/gernepick"; // Adjust the URL as per your setup
         String dbUser = "root"; // Default user for MySQL
-        String dbPassword = "16253456@#"; // Provide the actual password
+        String dbPassword = "root"; // Provide the actual password
 
         // Check if the JDBC driver is available
         try {
